@@ -13,5 +13,4 @@ colorscheme darkblue
 call plug#begin()
 Plug 'scrooloose/nerdtree'
 call plug#end()
-map <F3> :NERDTreeMirror<CR>
-map <F3> :NERDTreeToggle<CR>
+map <silent> <C-e> :NERDTreeToggle<CR>
