@@ -1,4 +1,6 @@
-set number                                                                                                             syntax on
+set number
+set clipboard=unnamed
+syntax on
 set encoding=utf-8
 "set relativenumber
 set cursorline
