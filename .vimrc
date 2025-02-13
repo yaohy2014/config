@@ -1,5 +1,4 @@
-set number
-syntax on
+"set number                                                                                                             syntax on
 set encoding=utf-8
 "set relativenumber
 set cursorline
@@ -9,6 +8,11 @@ set t_Co=256
 set nobackup
 set noswapfile
 colorscheme darkblue
+set autoindent
+"set tabstop=2
+set shiftwidth=4
+set softtabstop=4
+
 
 call plug#begin()
 Plug 'scrooloose/nerdtree'
